@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Attendance System - Arun Poddar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Smart Attendance Idea</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="#analytics" class="nav-link">Analytics</a></li>
+                <li><a href="#security" class="nav-link">Security</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn--outline btn--sm">Contact Us</a>
+                <a href="#demo" class="btn btn--primary btn--sm">Get Started</a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">🎓 Next-Gen Attendance Solution</div>
+                <h1 class="hero-title">
+                    Smart Attendance System
+                    <span class="gradient-text">Reimagined</span>
+                </h1>
+                <p class="hero-description">
+                    Transform how you track attendance with real-time analytics, secure authentication, and intelligent insights. Built for modern educational institutions.
+                </p>
+                <div class="hero-cta">
+                    <a href="#demo" class="btn btn--primary btn--lg">View Demo</a>
+                    <a href="#features" class="btn btn--outline btn--lg">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10000">0</div>
+                        <div class="stat-label">Active Users</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="99.9">0</div>
+                        <div class="stat-label">Accuracy Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">Institutions</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="mockup-container">
+                    <div class="mockup-card card-1">
+                        <div class="mockup-header">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mock-title">Today's Attendance</div>
+                            <div class="attendance-code">12345</div>
+                            <div class="code-validity">Valid for 10 minutes</div>
+                        </div>
+                    </div>
+                    <div class="mockup-card card-2">
+                        <div class="chart-preview">
+                            <div class="chart-bar" style="height: 60%"></div>
+                            <div class="chart-bar" style="height: 85%"></div>
+                            <div class="chart-bar" style="height: 70%"></div>
+                            <div class="chart-bar" style="height: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Features Overview -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-description">Everything you need for modern attendance management</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-delay="0">
+                    
+                    <h3 class="feature-title">Secure Code Generation</h3>
+                    <p class="feature-description">5-digit unique codes with 10-minute validity ensure security and prevent proxy attendance</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="100">
+                  
+                    <h3 class="feature-title">Real-Time Analytics</h3>
+                    <p class="feature-description">Track attendance trends with interactive dashboards and 6-month historical data</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="200">
+                
+                    <h3 class="feature-title">Smart Notifications</h3>
+                    <p class="feature-description">Email &amp; SMS alerts for low attendance below 75% threshold</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="300">
+                  
+                    <h3 class="feature-title">Multi-Platform</h3>
+                    <p class="feature-description">Access via web dashboard, iOS, and Android with seamless sync</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="400">
+                    
+                    <h3 class="feature-title">Offline Mode</h3>
+                    <p class="feature-description">Mark attendance offline and auto-sync when connection is restored</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="500">
+                    
+                    <h3 class="feature-title">Predictive Insights</h3>
+                    <p class="feature-description">AI-powered trend analysis and custom reports generation</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="600">
+                    
+                    <h3 class="feature-title">LMS Integration</h3>
+                    <p class="feature-description">Connect with Google Classroom, Microsoft Teams, Canvas, and Moodle</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="700">
+                    
+                    <h3 class="feature-title">Parent Portal</h3>
+                    <p class="feature-description">Real-time attendance visibility for parents with notifications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-description">Simple 4-step process for seamless attendance tracking</p>
+            </div>
+            <div class="steps-container">
+                <div class="step" data-aos="fade-right">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Teacher Generates Code</h3>
+                        <p class="step-description">Teacher logs in and generates a unique 5-digit code for the class session</p>
+                    </div>
+                    
+                </div>
+                <div class="step" data-aos="fade-left">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Code Display</h3>
+                        <p class="step-description">Code is displayed in class and remains valid for 10 minutes</p>
+                    </div>
+                    
+                </div>
+                <div class="step" data-aos="fade-right">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Students Mark Attendance</h3>
+                        <p class="step-description">Students enter the code in their app to mark attendance in real-time</p>
+                    </div>
+                    
+                </div>
+                <div class="step" data-aos="fade-left">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Instant Analytics</h3>
+                        <p class="step-description">View real-time attendance data, generate reports, and track trends</p>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teacher Dashboard -->
+    <section class="dashboard-section">
+        <div class="container">
+            <div class="dashboard-content">
+                <div class="dashboard-text">
+                    <h2 class="section-title">Teacher Dashboard</h2>
+                    <p class="section-description">Comprehensive tools for educators</p>
+                    <ul class="feature-list">
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Generate attendance codes instantly</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>View class attendance overview</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Track individual student progress</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Manage leave requests</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Export reports to Excel/PDF</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Bulk student import</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Substitute teacher support</span>
+                        </li>
+                    </ul>
+                    <a href="#demo" class="btn btn--primary">Try Teacher Dashboard</a>
+                </div>
+                <div class="dashboard-visual">
+                    <div class="dashboard-mockup">
+                        <div class="dashboard-header">
+                            <div class="header-title">Class: CS-101</div>
+                            <div class="header-status status--success">75 Present</div>
+                        </div>
+                        <div class="dashboard-stats">
+                            <div class="mini-stat">
+                                <div class="mini-stat-value">85%</div>
+                                <div class="mini-stat-label">Avg Attendance</div>
+                            </div>
+                            <div class="mini-stat">
+                                <div class="mini-stat-value">12</div>
+                                <div class="mini-stat-label">Low Alerts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Portal -->
+    <section class="dashboard-section student-section">
+        <div class="container">
+            <div class="dashboard-content reverse">
+                <div class="dashboard-visual">
+                    <div class="dashboard-mockup">
+                        <div class="dashboard-header">
+                            <div class="header-title">My Attendance</div>
+                            <div class="header-status status--warning">72%</div>
+                        </div>
+                        <div class="attendance-input">
+                            <div class="input-label">Enter Code</div>
+                            <div class="code-boxes">
+                                <div class="code-box">1</div>
+                                <div class="code-box">2</div>
+                                <div class="code-box">3</div>
+                                <div class="code-box">4</div>
+                                <div class="code-box">5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-text">
+                    <h2 class="section-title">Student Portal</h2>
+                    <p class="section-description">Stay on top of your attendance</p>
+                    <ul class="feature-list">
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Quick code entry interface</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>View attendance percentage</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Track subject-wise attendance</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Receive low attendance alerts</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Submit leave applications</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>View historical records</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>QR code scanning option</span>
+                        </li>
+                    </ul>
+                    <a href="#demo" class="btn btn--primary">Try Student Portal</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analytics & Reports -->
+    <section class="analytics" id="analytics">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Analytics &amp; Reports</h2>
+                <p class="section-description">Data-driven insights for better decision making</p>
+            </div>
+            <div class="analytics-grid">
+                <div class="analytics-card" data-aos="zoom-in">
+                    <h3 class="analytics-title"> Trend Analysis</h3>
+                    <p>Identify patterns and predict future attendance trends with AI-powered analytics</p>
+                </div>
+                <div class="analytics-card" data-aos="zoom-in" data-delay="100">
+                    <h3 class="analytics-title"> Custom Date Ranges</h3>
+                    <p>Generate reports for any time period - daily, weekly, monthly, or custom ranges</p>
+                </div>
+                <div class="analytics-card" data-aos="zoom-in" data-delay="200">
+                    <h3 class="analytics-title"> Department Analytics</h3>
+                    <p>Compare attendance across departments and identify areas needing attention</p>
+                </div>
+                <div class="analytics-card" data-aos="zoom-in" data-delay="300">
+                    <h3 class="analytics-title"> Export Options</h3>
+                    <p>Download reports in Excel, PDF, or CSV formats for easy sharing</p>
+                </div>
+                <div class="analytics-card" data-aos="zoom-in" data-delay="400">
+                    <h3 class="analytics-title"> Individual Progress</h3>
+                    <p>Track each student's attendance journey with detailed historical data</p>
+                </div>
+                <div class="analytics-card" data-aos="zoom-in" data-delay="500">
+                    <h3 class="analytics-title"> Performance Metrics</h3>
+                    <p>Monitor key metrics like average attendance, improvement rates, and more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Privacy -->
+    <section class="security" id="security">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Security &amp; Privacy</h2>
+                <p class="section-description">Your data is protected with enterprise-grade security</p>
+            </div>
+            <div class="security-grid">
+                <div class="security-feature">
+                    
+                    <h3>End-to-End Encryption</h3>
+                    <p>All data is encrypted in transit and at rest using industry-standard protocols</p>
+                </div>
+                <div class="security-feature">
+                    
+                    <h3>Role-Based Access</h3>
+                    <p>Granular permissions ensure users only access authorized information</p>
+                </div>
+                <div class="security-feature">
+                  
+                    <h3>Data Privacy Compliance</h3>
+                    <p>GDPR, FERPA, and other compliance standards fully implemented</p>
+                </div>
+                <div class="security-feature">
+                
+                    <h3>Secure Authentication</h3>
+                    <p>Multi-factor authentication and secure session management</p>
+                </div>
+                <div class="security-feature">
+                 
+                    <h3>Audit Logs</h3>
+                    <p>Complete audit trail of all system activities for accountability</p>
+                </div>
+                <div class="security-feature">
+                    
+                    <h3>Real-Time Monitoring</h3>
+                    <p>24/7 security monitoring and instant threat detection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrations -->
+    <section class="integrations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Seamless Integrations</h2>
+                <p class="section-description">Connect with your existing tools and platforms</p>
+            </div>
+            <div class="integrations-grid">
+                <div class="integration-card">
+                   
+                    <h3>Google Classroom</h3>
+                </div>
+                <div class="integration-card">
+                  
+                    <h3>Microsoft Teams</h3>
+                </div>
+                <div class="integration-card">
+                 
+                    <h3>Canvas LMS</h3>
+                </div>
+                <div class="integration-card">
+                    
+                    <h3>Moodle</h3>
+                </div>
+                <div class="integration-card">
+                
+                    <h3>Zoom</h3>
+                </div>
+                <div class="integration-card">
+                 
+                    <h3>REST API</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Built with Modern Technology</h2>
+                <p class="section-description">Powered by cutting-edge tech stack</p>
+            </div>
+            <div class="tech-badges">
+                <div class="tech-badge"> React Native</div>
+                <div class="tech-badge"> Firebase</div>
+                <div class="tech-badge"> Expo</div>
+                <div class="tech-badge"> Node.js</div>
+                <div class="tech-badge"> MongoDB</div>
+                <div class="tech-badge"> REST API</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Developed by ("Arun Poddar")</h2>
+                </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="demo">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Transform Your Attendance System?</h2>
+                <p class="cta-description">Join hundreds of institutions already using Smart Attendance</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn--primary btn--lg">Request Access</a>
+                    <a href="#features" class="btn btn--outline btn--lg">View Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">
+                        Smart Attendance
+                    </h3>
+                    <p class="footer-description">
+                        Next-generation attendance tracking system built for modern educational institutions.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#analytics">Analytics</a></li>
+                        <li><a href="#security">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#demo">Request Demo</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li> info@smartattendance.com</li>
+                        <li> +91 1234567890</li>
+                        <li> www.smartattendance.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 ArunPoddar. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/arunpoddarji/" class="social-link" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/ArunJi07" class="social-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
